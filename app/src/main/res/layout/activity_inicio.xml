@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/inicio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E1E"
+    tools:context=".inicio">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="164dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logopizzavitoluigini" />
+
+    <TextView
+        android:id="@+id/textusuario"
+        android:layout_width="355dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/shape"
+        android:fontFamily="sans-serif-medium"
+        android:text="USUARIO"
+        android:textAlignment="center"
+        android:textColor="#CE9863"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imagepizzainicio"
+        android:layout_width="230dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textusuario"
+        app:srcCompat="@drawable/pizzainicio" />
+
+    <ImageView
+        android:id="@+id/imagerefrescoinicio"
+        android:layout_width="230dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagepizzainicio"
+        app:srcCompat="@drawable/refrescoinicio" />
+</androidx.constraintlayout.widget.ConstraintLayout>
